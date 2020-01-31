@@ -1,0 +1,21 @@
+{
+  "name": "webscraper",
+  "version": "1.0.0",
+  "description": "get data from website amc",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "web crawler",
+    "web scraper"
+  ],
+  "author": "Matjaz Potocnik",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "json2xls": "^0.1.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
